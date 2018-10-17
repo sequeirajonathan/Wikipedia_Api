@@ -1,23 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+
 body {
     padding: 0;
     margin: 0;
+    background: whitesmoke;
 }
-
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-top: 15vh;
     min-width: 40vw;
     min-height: 40vh;
 }
 
 .logo {
     min-width: 30vw;
-    min-height: 40vh;
+    max-width: 30vw;
     margin-bottom: 3vh;
     margin-top: 3vh;
 }
 
+input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 20vw;
+    margin-right: 10px;
+}
+
+.search, .random {
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    background: whitesmoke;
+    font-family: 'Ranga', cursive;
+    font-weight: 700;
+    width: 12vw;
+    letter-spacing: 2px;
+}
+
+.output {
+    margin: 10vh auto;
+    min-width: 65vw;
+    max-width: 65vw;
+    border-radius: 10px;
+    border: 1px solid #BFBFBF;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}

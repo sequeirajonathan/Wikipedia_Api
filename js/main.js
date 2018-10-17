@@ -27,9 +27,9 @@ function wikiSearch() {
   });
 }
 
-
 //call functions and event listeners
 search.addEventListener("click", wikiSearch);
 random.addEventListener("click", () => {
     window.open(`${wiki_link}${randomEndpoint}`);
 });
+
